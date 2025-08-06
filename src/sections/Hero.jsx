@@ -1,3 +1,5 @@
+import ComingSoon from "./ComingSoon";
+
 function Hero() {
   return (
     <section className="hero-section">
@@ -35,6 +37,8 @@ function Hero() {
           />
         </div>
       </div>
+
+      <ComingSoon />
     </section>
   );
 }
