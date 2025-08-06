@@ -3,7 +3,7 @@ import ComingSoon from "./ComingSoon";
 function Hero() {
   return (
     <section className="hero-section">
-      <div className="size-full max-wrapper">
+      {/* <div className="size-full max-wrapper">
         <img
           src="/public/images/hero-bg.webp"
           className="scale-out"
@@ -36,7 +36,7 @@ function Hero() {
             className="overlay-logo"
           />
         </div>
-      </div>
+      </div> */}
 
       <ComingSoon />
     </section>

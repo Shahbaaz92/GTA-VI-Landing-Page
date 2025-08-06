@@ -1,4 +1,6 @@
-function ComingSoon() {
+import React from "react";
+
+const ComingSoon = () => {
   return (
     <section className="entrance-message">
       <div className="h-full col-center gap-10">
@@ -18,11 +20,15 @@ function ComingSoon() {
             alt=""
             className="md:w-32 w-20"
           />
-          <img src="/public/images/x.svg" alt="" className="md:w-52 w-40" />
+          <img
+            src="/public/images/x-logo.svg"
+            alt=""
+            className="md:w-52 w-40"
+          />
         </div>
       </div>
     </section>
   );
-}
+};
 
 export default ComingSoon;
